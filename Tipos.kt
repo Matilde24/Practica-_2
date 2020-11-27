@@ -11,13 +11,6 @@ val binary = 0b01010101
 
 println("int $int, long $long, double $double, float $float, hexadecimal $hexadecimal, binary $binary")
 
-//cadenas
-val string = "string con \n una línea nueva"
-val rawString = """
- raw string es útil para
- cadenas con muchas líneas
- """
-println(" $string $rawString")
 
     //booleanos 
     val x = 1 
@@ -25,6 +18,14 @@ println(" $string $rawString")
     val z = 2 
     val esTrue = x < y && x < z 
     val otroTrue = x == y || y == z
+
+    //cadenas
+val string = "string con \n una línea nueva"
+val rawString = """
+ raw string es útil para
+ cadenas con muchas líneas
+ """
+println(" $string $rawString")
 
     
 }
